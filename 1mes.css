@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*Los link no tendran subrayado*/
+a{
+    text-decoration: none;
+}
+/*Barra de navegación*/
+nav{
+    background-color: #000;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+.nav-link{
+    color:#fff;
+    font: calc(100vh/15) "Manrope";/*Dividimos el ancho de la pantalla entre 7 para obtener exactamente el tamaño de letra que queremos*/
+    
+}
+/*Portada-1*/
+.portada1{
+    width: 100%;
+    height: 100vh;
+    background-color: #8d7ae8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:2px solid black;
+}
+.icono-corazon{
+    width: 70vw;
+}
+.titulo-portada{
+    position: relative;
+    top:4.7em;
+    text-align: center;
+    font: 2em "oswald", "montserrat";
+}
+/*Perfil de Daniela*/
+.daniela, .barroso{
+    height: 100vh;
+}
+.daniela, .perfil, .biografia, .barroso{
+    display: flex;
+    flex-direction: column;
+}
+.perfil{
+    flex: 1;
+    background-color: #e87a9e;
+    align-items: center;
+    justify-content: flex-end;
+}
+.foto-perfil{
+    width: 40vw;
+    clip-path: circle(50%);
+}
+.titulo-perfil{
+    font:1.5em "Verdana";
+    color:#000;
+    padding: 1em;
+}
+.biografia{
+    flex: 1;
+    background-color: #59dbb0;
+    justify-content: center;
+}
+.titulo-biografia{
+    text-align: center;
+    font: 2em "raleway";
+}
+.bio-links{
+    margin-left: 5vw;
+    font: 1em "raleway";
+    margin:0.5em;
+}
+/*Los dos juntos*/
+.galeria{
+    border-top:2px solid #000 ;
+    background-color: #e8c47a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.juntos{
+    font:2em "roboto";
+    padding:3em 1em 2em 1em;
+    text-align: center;
+}
+.fotos{
+    width:80vw;
+}
+.titulo-fotos{
+    background-color: #fff;
+    padding:2em;
+    margin:1em;
+    font: 1.3em "raleway";
+    text-align: justify;
+}
+.amorfa{
+    transform:rotate(-90deg);
+}
+.continue-text{
+    font:2em "open sans";
+    text-align: center;
+    background-color: #7ad5e8;
+}
