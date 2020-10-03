@@ -3,9 +3,17 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
 /*Los link no tendran subrayado*/
 a{
     text-decoration: none;
+}
+.password{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*Barra de navegación*/
 nav{
