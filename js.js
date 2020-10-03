@@ -4,15 +4,14 @@ function musica(){
 }
 
 
-let password;
+
 const xhr = new XMLHttpRequest();
 xhr.onload = function(){
     if(xhr.status === 200){
-        responseObject = JSON.parse(xhr.responseText);
-        password = JSON.parse(this.responseText);
+        hajksdfhas = JSON.parse(this.responseText);
         $('*').css('overflow-y','hidden')
         $('input.enviar').on('click',function(e) {
-        if($('#fname').val() == password.contraseña){
+        if($('#fname').val() == hajksdfhas.contraseña){
             $('div.password').css('display','none')
             $('*').css('overflow-y','')
     }
