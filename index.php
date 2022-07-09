@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="password">
-        <form class="form">
+        <form class="form" method="post" action="<?= $_SERVER["PHP_SELF"] ?>">
             <label for="fname">Contraseña:</label>
             <input type="password" id="fname" name="fname"><br><br>
             <input type="button" class="enviar" value="Validar" onclick="musica()">
